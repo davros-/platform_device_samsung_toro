@@ -1,0 +1,5 @@
+# This is the open-source version of board-info.txt; it should contain
+# version of the radio and bootloader that are available to the
+# public.
+require board=tuna
+
