@@ -10,4 +10,3 @@
 /sbl		emmc		/dev/block/platform/omap/omap_hsmmc.0/by-name/sbl
 /xloader	emmc		/dev/block/platform/omap/omap_hsmmc.0/by-name/xloader
 /radio		emmc		/dev/block/platform/omap/omap_hsmmc.0/by-name/radio
-/boot		auto		boot
