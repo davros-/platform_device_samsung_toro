@@ -32,7 +32,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.cdma.homesystem=64,65,76,77,78,79,80,81,82,83 \
 	ro.cdma.data_retry_config=default_randomization=2000,0,0,120000,180000,540000,960000 \
 	ro.cdma.otaspnumschema=SELC,1,80,99 \
-        windowsmgr.max_events_per_sec=350 \
+        windowsmgr.max_events_per_sec=500 \
         ro.kernel.android.checkjni=0 \
         ro.media.enc.jpeg.quality=100 \
         ro.config.nocheckin=1 \
