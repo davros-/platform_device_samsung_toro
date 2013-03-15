@@ -68,7 +68,21 @@ PRODUCT_PROPERTY_OVERRIDES += \
         ro.min.fling_velocity=8000 \
         ro.config.hw_fast_dormancy=1 \
         net.dns1=8.8.4.4 \
-        net.dns2=8.8.8.8 
+        net.dns2=8.8.8.8 \
+        persist.service.clearaudio.enable=1 \
+        persist.service.clearphase.enable=1 \
+        persist.service.enhance.enable=1 \
+        persist.service.swiqi2.enable=1 \
+        persist.service.xloud.enable=1 \
+        ro.semc.clearaudio.supported=true \
+        ro.semc.sound_effects_enabled=true \
+        ro.service.swiqi2.supported=true \
+        ro.semc.xloud.supported=true \
+        ro.somc.clearphase.supported=true \
+        ro.sony.walkman.logger=1 \
+        htc.audio.alc.enable=1 \
+        htc.audio.swalt.enable=1 \
+        htc.audio.swalt.mingain=14512
 
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/toro/device-vendor.mk)
